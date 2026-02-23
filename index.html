@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>From Zero to Live Website – Workshop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Zero<span>ToLive</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" class="active">Home</a>
+        <a href="mariatt.html">Mariatt</a>
+        <a href="royal.html">Royal</a>
+        <a href="sijomon.html">Sijomon</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1><span>From Zero to Live Website</span></h1>
+    <p>
+      Build &amp; Host Using AI, Git &amp; GitHub Pages — A hands-on workshop
+      where you'll go from having no website to a fully hosted one in just
+      <strong>2 hours</strong>.
+    </p>
+    <span class="badge">📅 Workshop · 2 Hours</span>
+  </section>
+
+  <!-- What You'll Learn -->
+  <section class="section">
+    <h2 class="section-title">What You'll Learn</h2>
+    <p class="section-subtitle">Four key skills you'll walk away with</p>
+
+    <div class="learn-grid">
+      <div class="learn-card">
+        <div class="icon">🤖</div>
+        <h3>Build with AI</h3>
+        <p>Use AI tools to generate a clean, modern static website from scratch.</p>
+      </div>
+      <div class="learn-card">
+        <div class="icon">🔀</div>
+        <h3>Git Basics</h3>
+        <p>Understand version control fundamentals — init, add, commit &amp; push.</p>
+      </div>
+      <div class="learn-card">
+        <div class="icon">🐙</div>
+        <h3>Use GitHub</h3>
+        <p>Create repositories, push code, and collaborate using GitHub.</p>
+      </div>
+      <div class="learn-card">
+        <div class="icon">🚀</div>
+        <h3>Host on GitHub Pages</h3>
+        <p>Deploy your website for free and share it with the world.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet the Team -->
+  <section class="section">
+    <h2 class="section-title">Meet the Team</h2>
+    <p class="section-subtitle">The people guiding you through this workshop</p>
+
+    <div class="team-grid">
+      <!-- Mariatt -->
+      <div class="team-card">
+        <div class="avatar">MJ</div>
+        <h3>Mariatt Joseph</h3>
+        <p class="role">Introduction to Websites &amp; AI</p>
+        <a href="mariatt.html" class="btn">Learn More →</a>
+      </div>
+
+      <!-- Royal -->
+      <div class="team-card">
+        <div class="avatar">RL</div>
+        <h3>Royal Louis</h3>
+        <p class="role">Building Website using AI</p>
+        <a href="royal.html" class="btn">Learn More →</a>
+      </div>
+
+      <!-- Sijomon -->
+      <div class="team-card">
+        <div class="avatar">SP</div>
+        <h3>Sijomon P S</h3>
+        <p class="role">Git &amp; GitHub</p>
+        <a href="sijomon.html" class="btn">Learn More →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p><strong>From Zero to Live Website</strong> — Build &amp; Host Using AI, Git &amp; GitHub Pages</p>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks  = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+  </script>
+</body>
+</html>

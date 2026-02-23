@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mariatt Joseph – Workshop Speaker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Zero<span>ToLive</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="mariatt.html" class="active">Mariatt</a>
+        <a href="royal.html">Royal</a>
+        <a href="sijomon.html">Sijomon</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Speaker Hero -->
+  <section class="speaker-hero">
+    <div class="avatar-lg">MJ</div>
+    <h1>Mariatt Joseph</h1>
+    <span class="role-tag">Introduction to Websites &amp; AI</span>
+    <p>Mariatt kicks off the workshop by setting the stage — explaining what websites are, why every student needs one, and how AI is changing the way we build them.</p>
+  </section>
+
+  <!-- Topics -->
+  <section class="topics-section">
+    <h2>Topics Covered</h2>
+
+    <div class="topic-list">
+      <div class="topic-item">
+        <div class="topic-icon">🌐</div>
+        <div>
+          <h3>What is a Website?</h3>
+          <p>An introduction to how websites work — browsers, servers, and the basics of the web.</p>
+        </div>
+      </div>
+
+      <div class="topic-item">
+        <div class="topic-icon">🎯</div>
+        <div>
+          <h3>Why Students Need a Website</h3>
+          <p>Discover why having a personal website is essential for portfolios, projects, and career growth.</p>
+        </div>
+      </div>
+
+      <div class="topic-item">
+        <div class="topic-icon">🤖</div>
+        <div>
+          <h3>What is AI?</h3>
+          <p>A beginner-friendly overview of Artificial Intelligence and how it assists developers today.</p>
+        </div>
+      </div>
+
+      <div class="topic-item">
+        <div class="topic-icon">📝</div>
+        <div>
+          <h3>What You'll Learn Today</h3>
+          <p>A roadmap of the entire workshop — from building to hosting a live website.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p><strong>From Zero to Live Website</strong> — Build &amp; Host Using AI, Git &amp; GitHub Pages</p>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks  = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+  </script>
+</body>
+</html>

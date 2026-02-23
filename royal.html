@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Royal Louis – Workshop Speaker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Zero<span>ToLive</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="mariatt.html">Mariatt</a>
+        <a href="royal.html" class="active">Royal</a>
+        <a href="sijomon.html">Sijomon</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Speaker Hero -->
+  <section class="speaker-hero">
+    <div class="avatar-lg">RL</div>
+    <h1>Royal Louis</h1>
+    <span class="role-tag">Static Website Development using AI</span>
+    <p>Royal walks you through the core building blocks of a website and shows how to leverage AI to generate clean, production-ready code in minutes.</p>
+  </section>
+
+  <!-- Topics -->
+  <section class="topics-section">
+    <h2>Topics Covered</h2>
+
+    <div class="topic-list">
+      <div class="topic-item">
+        <div class="topic-icon">📄</div>
+        <div>
+          <h3>What is HTML?</h3>
+          <p>Learn the markup language that structures every web page on the internet.</p>
+        </div>
+      </div>
+
+      <div class="topic-item">
+        <div class="topic-icon">🎨</div>
+        <div>
+          <h3>What is CSS?</h3>
+          <p>Understand how CSS adds styling, layout, and visual design to HTML pages.</p>
+        </div>
+      </div>
+
+      <div class="topic-item">
+        <div class="topic-icon">🗂️</div>
+        <div>
+          <h3>What is a Static Website?</h3>
+          <p>Explore the difference between static and dynamic sites, and why static is perfect for beginners.</p>
+        </div>
+      </div>
+
+      <div class="topic-item">
+        <div class="topic-icon">🤖</div>
+        <div>
+          <h3>Using AI to Generate Code</h3>
+          <p>Discover how AI assistants can help you write HTML &amp; CSS quickly and accurately.</p>
+        </div>
+      </div>
+
+      <div class="topic-item">
+        <div class="topic-icon">💻</div>
+        <div>
+          <h3>Running Your Website Locally</h3>
+          <p>Learn how to preview and test your website on your own computer before publishing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p><strong>From Zero to Live Website</strong> — Build &amp; Host Using AI, Git &amp; GitHub Pages</p>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks  = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+  </script>
+</body>
+</html>
